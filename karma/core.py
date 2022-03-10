@@ -25,7 +25,7 @@ class pwndb(object):
     def __init__(self, args):
 
         get_logger()
-        self.site = "http://pwndb2am4tzkvold.onion/"
+        self.site = "http://pwndb2am4tzkvold.tor2web.io/"
         self.args = args
         self.data = {"luseropr": 1, "domainopr": 1, "submitform": "em"}
 
